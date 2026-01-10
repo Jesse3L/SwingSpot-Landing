@@ -1,0 +1,1 @@
+export const TRACKMAN_BOOKING_URL = process.env.NEXT_PUBLIC_TRACKMAN_BOOKING_URL || "#";
