@@ -31,7 +31,6 @@ export default function Home() {
       "longitude": "-103.2052"
     },
     "url": "https://swingspot.com", // Placeholder
-    "telephone": "+1-575-555-0123", // Placeholder
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

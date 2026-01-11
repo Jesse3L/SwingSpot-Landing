@@ -13,8 +13,8 @@ export function Equipment() {
                 <div className="w-full lg:w-1/2 relative">
                     <div className="relative z-10 rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_50px_-20px_rgba(255,255,255,0.1)] bg-surface-50 p-8 flex items-center justify-center">
                         <Image
-                            src="/images/IO_inside_optimized.png"
-                            alt="Trackman iO Launch Monitor Unit"
+                            src="/images/trackmanio_inside_view.png"
+                            alt="Trackman iO OERT Technology - Inside View"
                             width={800}
                             height={600}
                             className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
@@ -23,13 +23,13 @@ export function Equipment() {
                     {/* Tech Specs Overlay */}
                     <div className="absolute -bottom-6 -left-6 z-20 bg-surface-100 border border-white/5 p-4 rounded-xl shadow-xl flex gap-4 backdrop-blur-md">
                         <div className="text-center">
-                            <div className="text-primary font-bold text-xl">OERT</div>
-                            <div className="text-xs text-white/40 uppercase tracking-wider">Tracking</div>
+                            <div className="text-primary font-bold text-xl">3,000+</div>
+                            <div className="text-xs text-white/40 uppercase tracking-wider">Frames/Sec</div>
                         </div>
                         <div className="w-px bg-white/10" />
                         <div className="text-center">
-                            <div className="text-primary font-bold text-xl">INFRARED</div>
-                            <div className="text-xs text-white/40 uppercase tracking-wider">Light</div>
+                            <div className="text-primary font-bold text-xl">OERT</div>
+                            <div className="text-xs text-white/40 uppercase tracking-wider">Tracking</div>
                         </div>
                     </div>
                 </div>
@@ -42,13 +42,13 @@ export function Equipment() {
                     </div>
 
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-heading">
-                        PURPOSE BUILT FOR <br />
-                        <span className="text-white">INDOOR GOLF</span>
+                        UNRIVALED TECHNOLOGY <br />
+                        <span className="text-white">REALISM REIMAGINED</span>
                     </h2>
                     <p className="text-white/60 text-lg mb-8 leading-relaxed">
-                        Experience the next generation of indoor golf. The Trackman iO combines radar, infrared, and high-speed imaging
-                        to deliver incredibly accurate data with no minimum space requirements. It's the first launch monitor
-                        designed specifically for the indoor game.
+                        We don't just simulate golf; we replicate it. Using Trackman's groundbreaking <strong>OERT (Optically Enhanced Radar Tracking)</strong>,
+                        SwingSpot captures every nuance of your game. By combining radar precision with high-speed imaging, you get the
+                        most realistic ball flight and impact data ever seen in an indoor environment.
                     </p>
 
                     <div className="grid sm:grid-cols-2 gap-6">
@@ -57,8 +57,8 @@ export function Equipment() {
                                 <Wifi className="w-5 h-5 text-white" />
                             </div>
                             <div>
-                                <h4 className="text-white font-bold mb-1">No Space Limits</h4>
-                                <p className="text-sm text-white/50">Perfect tracking even in compact simulator setups.</p>
+                                <h4 className="text-white font-bold mb-1">Dual-Tracking Engine</h4>
+                                <p className="text-sm text-white/50">Radar and Camera work in unison for zero-doubt accuracy.</p>
                             </div>
                         </div>
                         <div className="flex gap-4">
@@ -66,8 +66,8 @@ export function Equipment() {
                                 <Cpu className="w-5 h-5 text-white" />
                             </div>
                             <div>
-                                <h4 className="text-white font-bold mb-1">Instant Impact</h4>
-                                <p className="text-sm text-white/50">Zero delay data processing for seamless play.</p>
+                                <h4 className="text-white font-bold mb-1">True Ball Flight</h4>
+                                <p className="text-sm text-white/50">See your actual shot shape, spin, and trajectory instantly.</p>
                             </div>
                         </div>
                     </div>
