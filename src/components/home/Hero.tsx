@@ -13,9 +13,14 @@ export function Hero() {
 
         const player = new Player(iframeRef.current);
 
+        // Start video at 5 seconds
+        player.ready().then(() => {
+            player.setCurrentTime(5);
+        });
+
         const onTimeUpdate = (data: { seconds: number }) => {
             if (data.seconds >= 40) {
-                player.setCurrentTime(0);
+                player.setCurrentTime(5);
             }
         };
 

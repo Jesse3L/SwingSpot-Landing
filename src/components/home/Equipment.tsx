@@ -13,7 +13,7 @@ export function Equipment() {
                 <div className="w-full lg:w-1/2 relative">
                     <div className="relative z-10 rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_50px_-20px_rgba(255,255,255,0.1)] bg-surface-50 p-8 flex items-center justify-center">
                         <Image
-                            src="/images/trackmanio_inside_view.png"
+                            src="/images/trackman_io_inside_view_v2.png"
                             alt="Trackman iO OERT Technology - Inside View"
                             width={800}
                             height={600}
