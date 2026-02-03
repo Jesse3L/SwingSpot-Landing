@@ -18,6 +18,9 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "SwingSpot | Premier Indoor Golf Simulator in Clovis, NM",
   description: "Experience world-class golf training and entertainment at SwingSpot in Clovis, NM. Powered by Trackman technology.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
