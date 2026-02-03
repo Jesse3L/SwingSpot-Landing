@@ -135,6 +135,7 @@ export function FunForEveryone() {
                                     onClick={scrollPrev}
                                     className="w-14 h-14 rounded-full border border-white/20 flex items-center justify-center text-white/50 hover:text-white hover:border-primary hover:bg-primary/10 transition-all bg-surface-100"
                                     aria-label="Previous game"
+                                    suppressHydrationWarning
                                 >
                                     <ChevronLeft className="w-8 h-8" />
                                 </button>
@@ -158,6 +159,7 @@ export function FunForEveryone() {
                                     onClick={scrollNext}
                                     className="w-14 h-14 rounded-full border border-white/20 flex items-center justify-center text-white/50 hover:text-white hover:border-primary hover:bg-primary/10 transition-all bg-surface-100"
                                     aria-label="Next game"
+                                    suppressHydrationWarning
                                 >
                                     <ChevronRight className="w-8 h-8" />
                                 </button>

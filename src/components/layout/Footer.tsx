@@ -134,6 +134,7 @@ export function Footer() {
                                             required
                                             className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                                             placeholder="John Doe"
+                                            suppressHydrationWarning
                                         />
                                     </div>
                                     <div className="space-y-2">
@@ -146,6 +147,7 @@ export function Footer() {
                                             name="phone"
                                             className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                                             placeholder="(555) 123-4567"
+                                            suppressHydrationWarning
                                         />
                                     </div>
                                 </div>
@@ -161,6 +163,7 @@ export function Footer() {
                                         required
                                         className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
                                         placeholder="john@example.com"
+                                        suppressHydrationWarning
                                     />
                                 </div>
 
@@ -175,6 +178,7 @@ export function Footer() {
                                         rows={4}
                                         className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all resize-none"
                                         placeholder="How can we help you?"
+                                        suppressHydrationWarning
                                     />
                                 </div>
 
@@ -184,7 +188,7 @@ export function Footer() {
                                     </div>
                                 )}
 
-                                <Button type="submit" size="lg" className="w-full" disabled={isLoading}>
+                                <Button type="submit" size="lg" className="w-full" disabled={isLoading} suppressHydrationWarning>
                                     {isLoading ? (
                                         <>
                                             <Loader2 className="w-4 h-4 mr-2 animate-spin" />
