@@ -57,6 +57,7 @@ export function FAQ() {
                         <button
                             onClick={() => setOpenIndex(prev => prev === i ? null : i)}
                             className="w-full flex items-center justify-between p-6 text-left hover:bg-surface-200 transition-colors"
+                            suppressHydrationWarning
                         >
                             <span className="font-medium text-white text-lg pr-4">{faq.q}</span>
                             {openIndex === i ? (
