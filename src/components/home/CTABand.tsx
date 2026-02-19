@@ -12,15 +12,14 @@ export function CTABand() {
                     Ready to Swing?
                 </h2>
                 <p className="text-black/80 text-xl md:text-2xl font-medium max-w-2xl mx-auto mb-10 leading-relaxed">
-                    Book your bay today and experience the best indoor golf in Clovis.
+                    Join the waitlist today and be the first to know when we open.
                 </p>
                 <Button
-                    href={TRACKMAN_BOOKING_URL}
-                    external
+                    href="#waitlist"
                     size="lg"
                     className="bg-black text-white hover:bg-black/80 hover:scale-105 shadow-2xl"
                 >
-                    Book Now
+                    Join Waitlist
                 </Button>
             </div>
         </section>

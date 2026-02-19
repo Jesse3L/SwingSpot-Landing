@@ -53,8 +53,8 @@ export function HowItWorks() {
             </div>
 
             <div className="mt-16 text-center">
-                <Button href={TRACKMAN_BOOKING_URL} external size="lg">
-                    Start Your Round
+                <Button href="#waitlist" size="lg">
+                    Join Waitlist
                 </Button>
             </div>
         </Section>

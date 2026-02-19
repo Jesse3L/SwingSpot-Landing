@@ -31,7 +31,7 @@ export function FAQ() {
         },
         {
             q: "How do I book?",
-            a: "All bookings are handled online through our Trackman portal. Simply click 'Book Now', select your time, and you'll receive a code for entry."
+            a: "All bookings will be handled online through our portal. Simply click 'Join Waitlist' to get notified when we open."
         },
         {
             q: "What if I need to cancel?",

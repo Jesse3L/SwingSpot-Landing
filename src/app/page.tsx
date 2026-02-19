@@ -9,7 +9,9 @@ import { FeaturesGrid } from "@/components/home/FeaturesGrid";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { UseCases } from "@/components/home/UseCases";
 import { FAQ } from "@/components/home/FAQ";
+import { Memberships } from "@/components/home/Memberships";
 import { CTABand } from "@/components/home/CTABand";
+import { Waitlist } from "@/components/home/Waitlist";
 
 export default function Home() {
   const jsonLd = {
@@ -67,9 +69,11 @@ export default function Home() {
         <FunForEveryone />
         <FeaturesGrid />
         <HowItWorks />
+        <Memberships />
         <UseCases />
         <FAQ />
         <CTABand />
+        <Waitlist />
       </main>
       <Footer />
     </>

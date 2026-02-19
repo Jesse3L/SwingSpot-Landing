@@ -16,8 +16,8 @@ export function Header() {
                         <Link href="#features" className="hover:text-primary transition-colors">Features</Link>
                         <Link href="#faq" className="hover:text-primary transition-colors">FAQ</Link>
                     </nav>
-                    <Button href={TRACKMAN_BOOKING_URL} external size="sm">
-                        Book Now
+                    <Button href="#waitlist" size="sm">
+                        Join Waitlist
                     </Button>
                 </div>
             </div>

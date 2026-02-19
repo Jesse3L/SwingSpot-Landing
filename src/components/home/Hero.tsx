@@ -50,7 +50,7 @@ export function Hero() {
             <div className="container relative z-10 px-4 text-center">
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 animate-fade-in-up backdrop-blur-md">
                     <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                    <span className="text-sm font-medium text-primary tracking-wide">NOW OPEN IN CLOVIS, NM</span>
+                    <span className="text-sm font-medium text-primary tracking-wide">COMING SOON EARLY 2026</span>
                 </div>
 
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6 font-heading drop-shadow-2xl">
@@ -66,8 +66,8 @@ export function Hero() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <Button size="lg" href={TRACKMAN_BOOKING_URL} external className="w-full sm:w-auto min-w-[180px] shadow-primary/25">
-                        Book Your Tee Time
+                    <Button size="lg" href="#waitlist" className="w-full sm:w-auto min-w-[180px] shadow-primary/25">
+                        Join Waitlist
                     </Button>
                     <Button variant="outline" size="lg" href="#how-it-works" className="w-full sm:w-auto min-w-[180px] backdrop-blur-sm bg-black/20 border-white/30 hover:bg-white/10">
                         How It Works
