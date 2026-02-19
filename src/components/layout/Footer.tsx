@@ -19,14 +19,16 @@ export function Footer() {
         const formData = new FormData(event.currentTarget);
         const data = Object.fromEntries(formData.entries());
 
-        // TODO: Replace this with your actual Zapier Webhook URL
-        // const WEBHOOK_URL = "YOUR_ZAPIER_WEBHOOK_URL";
+        // Zapier Webhook URL for Footer Contact Form
+        const WEBHOOK_URL = "https://hooks.zapier.com/hooks/catch/15198467/uc84138/";
 
         try {
-            // Simulator network request
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            await fetch(WEBHOOK_URL, {
+                method: "POST",
+                body: JSON.stringify(data),
+                mode: "no-cors",
+            });
 
-            console.log("Form submitted:", data);
             setIsSuccess(true);
             event.currentTarget.reset();
         } catch (err) {
