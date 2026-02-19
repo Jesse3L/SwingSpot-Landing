@@ -1,12 +1,14 @@
 "use client";
+import Image from "next/image";
 
 import { Button } from "@/components/ui/Button";
 import { TRACKMAN_BOOKING_URL } from "@/lib/constants";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Player from "@vimeo/player";
 
 export function Hero() {
     const iframeRef = useRef<HTMLIFrameElement>(null);
+    const [isVideoReady, setIsVideoReady] = useState(false);
 
     useEffect(() => {
         if (!iframeRef.current) return;
@@ -16,6 +18,7 @@ export function Hero() {
         // Start video at 5 seconds
         player.ready().then(() => {
             player.setCurrentTime(5);
+            setIsVideoReady(true);
         });
 
         const onTimeUpdate = (data: { seconds: number }) => {
@@ -34,18 +37,35 @@ export function Hero() {
 
     return (
         <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-black">
+            {/* Background Images (Posters) */}
+            <div className="absolute inset-0 z-0">
+                {/* Mobile Image (Vertical) */}
+                <div className="absolute inset-0 md:hidden">
+                    <Image
+                        src="/images/1080x1920_neverlookedbetter_1.jpg"
+                        alt="SwingSpot Simulator"
+                        fill
+                        className="object-cover"
+                        priority
+                    />
+                </div>
+                {/* Desktop Image (Fallback/Poster) */}
+                <div className="hidden md:block absolute inset-0 bg-black" />
+            </div>
+
             {/* Vimeo Background Video */}
-            <div className="absolute inset-0 z-0 overflow-hidden">
+            <div className={`absolute inset-0 z-0 overflow-hidden transition-opacity duration-1000 hidden md:block ${isVideoReady ? 'opacity-100' : 'opacity-0'}`}>
                 <iframe
                     ref={iframeRef}
-                    src="https://player.vimeo.com/video/864314153?background=1&autoplay=1&loop=0&byline=0&title=0&muted=1"
+                    src="https://player.vimeo.com/video/864314153?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1"
                     className="absolute top-1/2 left-1/2 w-[177.77vh] h-[56.25vw] min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 object-cover pointer-events-none opacity-60"
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowFullScreen
                 />
-                {/* Overlay gradient for readability */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/30" />
             </div>
+
+            {/* Overlay gradient for readability */}
+            <div className="absolute inset-0 z-0 bg-gradient-to-t from-black via-black/50 to-black/30" />
 
             <div className="container relative z-10 px-4 text-center">
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 animate-fade-in-up backdrop-blur-md">
