@@ -213,6 +213,7 @@ export function Footer() {
 
                     <div className="flex items-center gap-6 text-sm text-white/60">
                         <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
+                        <Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
                         <p>© {currentYear} SwingSpot. All rights reserved.</p>
                     </div>
                 </div>
