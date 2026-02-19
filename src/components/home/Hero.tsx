@@ -65,7 +65,10 @@ export function Hero() {
             </div>
 
             {/* Overlay gradient for readability */}
-            <div className="absolute inset-0 z-0 bg-gradient-to-t from-black via-black/50 to-black/30" />
+            <div className="absolute inset-0 z-0 bg-gradient-to-t from-black via-black/60 to-black/40 md:via-black/50 md:to-black/30" />
+
+            {/* Additional mobile-only darkening for better text contrast */}
+            <div className="absolute inset-0 z-0 bg-black/30 md:hidden" />
 
             <div className="container relative z-10 px-4 text-center">
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 animate-fade-in-up backdrop-blur-md">
