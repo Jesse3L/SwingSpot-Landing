@@ -56,7 +56,7 @@ export function Footer() {
                         </h2>
                         <p className="text-white/60 text-lg leading-relaxed">
                             Have questions about our technology, membership options, or booking a private event?
-                            Drop us a line and we'll get back to you shortly.
+                            Drop us a line and we&apos;ll get back to you shortly.
                         </p>
                     </div>
 
@@ -84,8 +84,8 @@ export function Footer() {
                                 <Phone className="w-6 h-6" />
                             </div>
                             <h3 className="text-white font-bold text-lg mb-2">Call Us</h3>
-                            <a href="tel:+15755550123" className="text-white/60 hover:text-white transition-colors">
-                                (575) 555-0123
+                            <a href="tel:+15752683443" className="text-white/60 hover:text-white transition-colors">
+                                (575) 268-3443
                             </a>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ export function Footer() {
                                 </div>
                                 <h3 className="text-2xl font-bold text-white mb-2">Message Sent!</h3>
                                 <p className="text-white/60 mb-8">
-                                    Thanks for reaching out. We'll get back to you as soon as possible.
+                                    Thanks for reaching out. We&apos;ll get back to you as soon as possible.
                                 </p>
                                 <Button onClick={() => setIsSuccess(false)} variant="outline">
                                     Send Another Message

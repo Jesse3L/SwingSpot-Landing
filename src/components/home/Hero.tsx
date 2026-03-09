@@ -2,7 +2,6 @@
 import Image from "next/image";
 
 import { Button } from "@/components/ui/Button";
-import { TRACKMAN_BOOKING_URL } from "@/lib/constants";
 import { useEffect, useRef, useState } from "react";
 import Player from "@vimeo/player";
 

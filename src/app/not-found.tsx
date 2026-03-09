@@ -8,7 +8,7 @@ export default function NotFound() {
                 <h1 className="text-9xl font-bold text-white/5 font-heading">404</h1>
                 <h2 className="text-3xl font-bold text-white">Out of Bounds!</h2>
                 <p className="text-lg text-white/60">
-                    Looks like you've sliced this one into the woods. The page you're looking for doesn't exist.
+                    Looks like you&apos;ve sliced this one into the woods. The page you&apos;re looking for doesn&apos;t exist.
                 </p>
                 <div className="pt-4">
                     <Link href="/">

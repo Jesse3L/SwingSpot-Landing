@@ -1,7 +1,6 @@
 "use client";
 
 import { useIntersectionObserver } from "@/lib/useIntersectionObserver";
-import { useState, useEffect } from "react";
 import { Section } from "@/components/ui/Section";
 import { Check } from "lucide-react";
 
@@ -10,13 +9,6 @@ export function Showcase() {
         threshold: 0.1,
         rootMargin: "50px"
     });
-    const [shouldLoad, setShouldLoad] = useState(false);
-
-    useEffect(() => {
-        if (isIntersecting) {
-            setShouldLoad(true);
-        }
-    }, [isIntersecting]);
 
     return (
         <Section background="dark" className="overflow-hidden">
@@ -24,7 +16,7 @@ export function Showcase() {
                 <div ref={elementRef} className="w-full lg:w-1/2 relative group">
                     <div className="absolute -inset-4 bg-primary/20 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity" />
                     <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl aspect-video bg-black">
-                        {shouldLoad ? (
+                        {isIntersecting ? (
                             <iframe
                                 src="https://player.vimeo.com/video/1012388994?h=d0f5e8cded&title=0&byline=0&portrait=0&loop=1&autopause=0&background=1"
                                 className="absolute inset-0 w-full h-full"
@@ -44,7 +36,7 @@ export function Showcase() {
                         UNREAL REALISM
                     </div>
                     <h3 className="text-3xl md:text-5xl font-bold text-white mb-6 font-heading">
-                        PLAY THE WORLD'S <br />
+                        PLAY THE WORLD&apos;S <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dark">
                             BEST COURSES
                         </span>

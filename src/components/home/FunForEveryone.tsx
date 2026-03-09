@@ -95,7 +95,7 @@ export function FunForEveryone() {
                         </h2>
                         <p className="text-white/60 text-lg mb-8 leading-relaxed">
                             Unlock the joy of golf with our selection of games for players of all ages and skill levels.
-                            From serious practice to magical minigames, there's always a new way to play.
+                            From serious practice to magical minigames and digital mini golf right here in Clovis, NM, there&apos;s always a new way to play.
                         </p>
                     </div>
 

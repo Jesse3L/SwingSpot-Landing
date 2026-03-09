@@ -9,7 +9,7 @@ export function LocalArea() {
                 <div className="bg-surface-100 p-8 rounded-3xl border border-white/5">
                     <h3 className="text-2xl font-bold text-white mb-4">Visit Us</h3>
                     <p className="text-white/60 mb-6 leading-relaxed">
-                        Conveniently located in downtown Clovis. Whether you're visiting from Portales, Muleshoe, or right here in town, we're your local home for indoor golf.
+                        Conveniently located in downtown Clovis. Whether you&apos;re visiting from Portales, Muleshoe, or right here in town, we&apos;re your local home for indoor golf.
                     </p>
 
                     <div className="space-y-4">

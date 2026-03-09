@@ -1,4 +1,3 @@
-import { Section } from "@/components/ui/Section";
 import { ShieldCheck, Target, Trophy, Clock } from "lucide-react";
 
 export function TrustStrip() {

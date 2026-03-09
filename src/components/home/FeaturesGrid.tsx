@@ -43,7 +43,7 @@ export function FeaturesGrid() {
                 </h2>
                 <p className="text-white/60 text-lg">
                     We use the same technology trusted by 1000+ tour pros.
-                    Whether you're fixing your slice or playing a round with friends, our sims deliver reality-grade feedback.
+                    Whether you&apos;re fixing your slice or playing a round with friends, our sims deliver reality-grade feedback.
                 </p>
             </div>
 

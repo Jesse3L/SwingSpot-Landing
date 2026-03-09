@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://swingspot.com"; // Placeholder domain
+    const baseUrl = "https://swingspot.golf";
 
     return [
         {

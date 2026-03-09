@@ -1,4 +1,10 @@
 import { Section } from "@/components/ui/Section";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Privacy Policy | SwingSpot",
+    description: "Read the privacy policy for SwingSpot, explaining how we collect and protect your information when you visit our website or use our services.",
+};
 
 export default function PrivacyPolicy() {
     return (
@@ -13,7 +19,7 @@ export default function PrivacyPolicy() {
                         <div>
                             <p className="text-sm text-white/50">Last Updated: February 19, 2026</p>
                             <p>
-                                At SwingSpot ("we", "us", or "our"), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclosure, and safeguard your information when you visit our website or join our waitlist.
+                                At SwingSpot (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclosure, and safeguard your information when you visit our website or join our waitlist.
                             </p>
                         </div>
 

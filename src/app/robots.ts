@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: "/",
             disallow: "/private/",
         },
-        sitemap: "https://swingspot.com/sitemap.xml",
+        sitemap: "https://swingspot.golf/sitemap.xml",
     };
 }

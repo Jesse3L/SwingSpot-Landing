@@ -85,9 +85,9 @@ export function Waitlist() {
                             <div className="w-20 h-20 bg-primary/20 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
                                 <Check className="w-10 h-10" />
                             </div>
-                            <h3 className="text-2xl font-bold text-white mb-4">You're on the list!</h3>
+                            <h3 className="text-2xl font-bold text-white mb-4">You&apos;re on the list!</h3>
                             <p className="text-white/60">
-                                Thanks for joining. We'll be in touch with updates as we get closer to launch.
+                                Thanks for joining. We&apos;ll be in touch with updates as we get closer to launch.
                             </p>
                             <Button
                                 variant="outline"
@@ -180,7 +180,7 @@ export function Waitlist() {
                                     />
                                 </div>
                                 <label htmlFor="leagues" className="text-sm text-white/80 select-none cursor-pointer">
-                                    I'm interested in joining Leagues & Tournaments
+                                    I&apos;m interested in joining Leagues & Tournaments
                                 </label>
                             </div>
 

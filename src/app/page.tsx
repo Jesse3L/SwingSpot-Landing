@@ -32,7 +32,7 @@ export default function Home() {
       "latitude": "34.4048", // Approximate for Clovis
       "longitude": "-103.2052"
     },
-    "url": "https://swingspot.com", // Placeholder
+    "url": "https://swingspot.golf",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

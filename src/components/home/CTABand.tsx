@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/Button";
-import { TRACKMAN_BOOKING_URL } from "@/lib/constants";
 
 export function CTABand() {
     return (

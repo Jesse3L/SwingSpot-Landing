@@ -40,6 +40,10 @@ export function FAQ() {
         {
             q: "Are you open 24/7?",
             a: "Our members have 24/7 access. Public booking hours are 8am - 10pm daily."
+        },
+        {
+            q: "Do you have mini golf in Clovis?",
+            a: "Yes! While we are an indoor simulator facility, our Trackman technology features a variety of digital mini golf courses. It's the perfect way to enjoy mini golf in Clovis year-round, regardless of the weather outside."
         }
     ];
 

@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { TRACKMAN_BOOKING_URL } from "@/lib/constants";
-import { cn } from "@/lib/utils";
 
 export function Header() {
     return (
@@ -16,6 +14,11 @@ export function Header() {
                         <Link href="#features" className="hover:text-primary transition-colors">Features</Link>
                         <Link href="#faq" className="hover:text-primary transition-colors">FAQ</Link>
                     </nav>
+                    <div className="hidden sm:flex items-center gap-2">
+                        <a href="tel:+15752683443" className="text-white/80 hover:text-white text-sm font-medium transition-colors">
+                            (575) 268-3443
+                        </a>
+                    </div>
                     <Button href="#waitlist" size="sm">
                         Join Waitlist
                     </Button>

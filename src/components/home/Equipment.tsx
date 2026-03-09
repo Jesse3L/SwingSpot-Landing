@@ -46,7 +46,7 @@ export function Equipment() {
                         <span className="text-white">REALISM REIMAGINED</span>
                     </h2>
                     <p className="text-white/60 text-lg mb-8 leading-relaxed">
-                        We don't just simulate golf; we replicate it. Using Trackman's groundbreaking <strong>OERT (Optically Enhanced Radar Tracking)</strong>,
+                        We don&apos;t just simulate golf; we replicate it. Using Trackman&apos;s groundbreaking <strong>OERT (Optically Enhanced Radar Tracking)</strong>,
                         SwingSpot captures every nuance of your game. By combining radar precision with high-speed imaging, you get the
                         most realistic ball flight and impact data ever seen in an indoor environment.
                     </p>

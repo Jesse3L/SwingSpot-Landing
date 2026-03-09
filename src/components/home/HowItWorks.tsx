@@ -1,7 +1,6 @@
 import { Section } from "@/components/ui/Section";
 import { CalendarCheck, DoorOpen, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { TRACKMAN_BOOKING_URL } from "@/lib/constants";
 
 export function HowItWorks() {
     const steps = [
